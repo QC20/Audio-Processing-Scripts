@@ -1,28 +1,44 @@
 # Audio Processing Scripts
 
-This repository contains two Python scripts for audio processing using the `pydub` library. The first script, `merge_mp3_files.py`, merges multiple MP3 files into a single file, while the second script, `compress_mp3.py`, compresses an MP3 file by adjusting its bitrate.
+This GitHub repository contains two Python scripts that utilize the `pydub` library for processing MP3 audio files.
 
-## Merge MP3 Files
+## Script 1: MP3 Compression
 
-### Script Description
-The `merge_mp3_files.py` script allows you to merge multiple MP3 files located in a specified folder into a single MP3 file.
+The first script, `compress_mp3.py`, allows you to compress an MP3 audio file to reduce its file size. This can be useful when you need to save storage space or optimize your audio files for web or other purposes.
 
-### Dependencies
-This script requires the following dependencies:
-- `pydub`
-- `os`
+### Requirements
 
-Make sure to install these dependencies before running the script. You can use `pip` to install them:
+To run the script, ensure you have the following installed:
+
+- Python
+- `pydub` library
+
+You can install the `pydub` library using the following command:
+
+```bash
 pip install pydub
 
+### Usage
+- Edit the script and set the input_file, output_file, and bitrate variables to match your desired configurations.
+- Execute the script to compress the MP3 file:
+- python compress_mp3.py
+
+## Script 2: MP3 File Merge
+The second script, merge_mp3_files.py, allows you to merge multiple MP3 audio files into one. This can be handy when you have several audio segments that need to be combined into a single cohesive file.
+
+### Requirements
+To run the script, ensure you have Python installed.
 
 ### Usage
-To use the script, follow these steps:
+- Edit the script and set the folder_path and output_file variables to specify the folder containing the MP3 files to merge and the desired output file path, respectively.
+- Execute the script to merge the MP3 files:
+- vpython merge_mp3_files.py
 
-1. Open the script file `merge_mp3_files.py` in a text editor or an integrated development environment (IDE).
-2. Set the `folder_path` variable to the path of the folder containing the MP3 files you want to merge.
-3. Set the `output_file` variable to the desired path and filename for the merged MP3 file.
-4. Save the script file.
-5. Run the script using Python:
-python merge_mp3_files.py
 
+Please note that the order of merging will follow the alphabetical order of filenames in the specified folder.
+
+Note: Make sure to install the required libraries using the provided instructions before running the scripts.
+
+Feel free to explore, modify, and use these scripts to suit your specific needs. For any issues or questions, please create an issue in this repository.
+
+Enjoy processing your MP3 audio files with ease! 🎶
