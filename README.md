@@ -12,8 +12,6 @@ To run the script, ensure you have the following installed:
 - `pydub` library
 
 You can install the `pydub` library using the following command:
-
-```bash
 - pip install pydub
 
 ### Usage
