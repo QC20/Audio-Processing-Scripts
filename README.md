@@ -14,7 +14,7 @@ To run the script, ensure you have the following installed:
 You can install the `pydub` library using the following command:
 
 ```bash
-pip install pydub
+- pip install pydub
 
 ### Usage
 - Edit the script and set the input_file, output_file, and bitrate variables to match your desired configurations.
