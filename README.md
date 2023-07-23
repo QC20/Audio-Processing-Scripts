@@ -1,6 +1,6 @@
 # Audio Processing Scripts
 
-This GitHub repository contains two Python scripts that utilize the `pydub` library for processing MP3 audio files.
+This GitHub repository contains two Python scripts that utilize the `pydub` library for processing MP3 audio files. 
 
 ## Script 1: MP3 Compression
 The first script, `compress_mp3.py`, allows you to compress an MP3 audio file to reduce its file size. This can be useful when you need to save storage space or optimize your audio files for web or other purposes.
