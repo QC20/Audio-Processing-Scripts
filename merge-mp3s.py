@@ -20,8 +20,8 @@ def merge_mp3_files(folder_path, output_file):
     print(f"Merged audio saved as {output_file}")
 
 # Provide the folder path and output file name
-folder_path = "/Users/jonaskjeldmand/Desktop/a"
-output_file = "/Users/jonaskjeldmand/Desktop/long.mp3"
+folder_path = "/path/to/your/folder"
+output_file = "/path/to/your/output/long.mp3"
 
 # Call the function to merge the MP3 files
 merge_mp3_files(folder_path, output_file)
