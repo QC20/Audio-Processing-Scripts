@@ -10,8 +10,8 @@ def compress_mp3(input_file, output_file, bitrate='1k'):
     print(f"Compressed MP3 saved as {output_file}")
 
 # Provide the input file path, output file path, and desired bitrate
-input_file = "/Users/jonaskjeldmand/Desktop/long.mp3"
-output_file = "/Users/jonaskjeldmand/Desktop/try.mp3"
+input_file = "/path/to/your/input/file.mp3"
+output_file = "/path/to/your/output/file.mp3"
 bitrate = '1k'  # Adjust the bitrate as per your requirement   
 
 # Call the function to compress the MP3 file
